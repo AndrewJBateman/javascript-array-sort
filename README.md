@@ -1,11 +1,10 @@
-# Javascript Array Sort
+# :zap: Javascript Array Sort
 
 Wes Bos Youtube Tutorial: [JavaScript Practice: Sorting Band Names without articles - #JavaScript30 17/30](https://www.youtube.com/watch?v=PEEo-2mRQ7A&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=17).
 
-
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -16,23 +15,23 @@ Wes Bos Youtube Tutorial: [JavaScript Practice: Sorting Band Names without artic
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * Tutorial Code to sort HTML elements based based on their text content.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/bands.png).
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Javascript v1.9 ECMA-262 ECMAScript 2018](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-## Setup
+## :floppy_disk: Setup
 
 * Open index.html in browser. If any code is changed the browser needs to be refreshed.
 
-## Code Examples
+## :computer: Code Examples
 
 * Functions to remove articles & alphabetisize.
 
@@ -46,20 +45,19 @@ function strip(bandName) {
 const sortedBands = bands.sort((a,b) => strip(a) > strip(b) ? 1 : -1); 
 ```
 
-## Features
+## :cool: Features
 
 *  flex background, regex function could be added to.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: try longer lists with more article combinations and change regex.
 
-## Inspiration
+## :clap: Inspiration
 
 * Wes Bos Youtube Tutorial: [JavaScript Practice: Sorting Band Names without articles - #JavaScript30 17/30](https://www.youtube.com/watch?v=PEEo-2mRQ7A&list=PLu8EoSxDXHP6CGK4YVJhL_VWetA865GOH&index=17).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
